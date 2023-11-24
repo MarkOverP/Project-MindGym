@@ -2,17 +2,24 @@ package com.example.mindgym;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class Login1Activity extends AppCompatActivity {
 
     EditText username ;
     EditText password ;
     Button loginButton ;
+    TextView signupText ;
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +28,8 @@ public class Login1Activity extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
+
+        signupText = findViewById(R.id.signupText);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,5 +44,13 @@ public class Login1Activity extends AppCompatActivity {
                 }
             }
         });
-    }
+
+        signupText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login1Activity.this, SignupActivity.class);
+                startActivity(intent);
+            }
+        });
+        }
 }
