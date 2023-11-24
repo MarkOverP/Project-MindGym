@@ -10,8 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        GridView gv = (GridView)findViewById(R.id.GView);
-        gv.setAdapter(new ImgAdapterMainPage(this));
     }
 }
