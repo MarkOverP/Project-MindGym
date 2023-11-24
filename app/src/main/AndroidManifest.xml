@@ -14,13 +14,13 @@
 
 
         <activity
-            android:name=".SignupActivity"
+            android:name=".ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".Login1Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
