@@ -62,14 +62,14 @@
                     android:id="@+id/desc1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Your score is : "
+                    android:text="Your score is :                        80 "
                     android:textSize="20dp"/>
 
                 <TextView
                     android:id="@+id/desc2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="max score is : "
+                    android:text="max score is :                      100"
                     android:textSize="20dp"/>
 
                 <Button
