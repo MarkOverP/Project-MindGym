@@ -34,7 +34,6 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="30dp">
 
-
             <TextView
                 android:id="@+id/ssc"
                 android:layout_width="match_parent"
@@ -46,7 +45,6 @@
                 android:orientation="vertical"
                 android:padding="30dp">
 
-
                 <TextView
                     android:id="@+id/box2text"
                     android:layout_width="match_parent"
@@ -55,8 +53,7 @@
                     android:textAlignment="center"
                     android:textColor="@color/Cold"
                     android:textSize="36sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/desc1"
@@ -84,7 +81,5 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
