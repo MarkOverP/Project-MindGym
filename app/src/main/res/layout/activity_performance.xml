@@ -1,215 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <SeekBar
-        android:id="@+id/seekBar13"
+        android:id="@+id/seekBar5"
         android:layout_width="375dp"
         android:layout_height="20dp"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="322dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MEMORY:"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="311dp" />
+        android:layout_marginTop="308dp"
+        android:scrollbarThumbHorizontal="@android:color/holo_orange_light"
+        android:scrollbarThumbVertical="@android:color/holo_orange_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AVERAGE:"
+        android:layout_marginTop="296dp"
+        android:text="MEMORY:"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="361dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar12"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@color/material_dynamic_primary80"
-        android:scrollbarThumbVertical="@color/material_dynamic_primary80"
-        android:secondaryProgressTint="#76D0FE"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="372dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar14"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@android:color/holo_orange_light"
-        android:scrollbarThumbVertical="@android:color/holo_orange_light"
-        android:secondaryProgressTint="#FEBA33"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="322dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar11"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar9"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@color/purple_700"
-        android:scrollbarThumbVertical="@color/purple_700"
-        android:secondaryProgressTint="#3700B2"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="275dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="READING:"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="214dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MATHS:"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="264dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar10"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@color/purple_200"
-        android:scrollbarThumbVertical="@color/purple_200"
-        android:secondaryProgressTint="#BA85FB"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SPEAKING:"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="165dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar8"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@android:color/holo_orange_dark"
-        android:scrollbarThumbVertical="@android:color/holo_orange_dark"
-        android:secondaryProgressTint="#F44336"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="176dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar7"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="126dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="proformance"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar3"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:scrollbarThumbHorizontal="@color/Mint"
-        android:scrollbarThumbVertical="@color/Mint"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="126dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="WRITNG:"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#2196F3"
-        android:text="RANKINGS"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="437dp" />
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="NOVIVE"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar4" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOVIVE"
+        android:layout_marginTop="340dp"
+        android:text="AVERAGE:"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="361dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NOVIVE"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="INTERMEDIATE"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="NOVIVE"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="165dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar5" />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="352dp"
+        android:scrollbarThumbHorizontal="@color/design_default_color_primary_dark"
+        android:scrollbarThumbVertical="@color/design_default_color_primary_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="264dp"
+        android:scrollbarThumbHorizontal="@color/purple_500"
+        android:scrollbarThumbVertical="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:text="READING:"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="220dp"
+        android:scrollbarThumbHorizontal="@android:color/holo_red_light"
+        android:scrollbarThumbVertical="@android:color/holo_red_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:text="MATHS:"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="NOVIVE"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="NOVIVE"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="176dp"
+        android:scrollbarThumbHorizontal="@android:color/holo_green_dark"
+        android:scrollbarThumbVertical="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:text="SPEAKING:"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="NOVIVE"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p5" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p4" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p3" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p1" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/all" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROFORMANCE"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="375dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="132dp"
+        android:scrollbarThumbHorizontal="@color/Mint"
+        android:scrollbarThumbVertical="@color/Mint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="NOVIVE"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="WRITNG:"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NOVIVE"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="214dp" />
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="RANKINGS"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar6" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INTERMEDIATE"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="264dp" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ADVANCED"
-        android:textSize="8sp"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="311dp" />
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="107dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
