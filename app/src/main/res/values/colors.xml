@@ -12,6 +12,8 @@
     <color name="Blue">#98E4FF</color>
     <color name="Neon">#80B3FF</color>
     <color name="Cold">#687EFF</color>
-
+    <color name="Lightblue">#E9F1FA</color>
+    <color name="Brightblue">#00ABE4</color>
+    <color name="Darkblue">#2d4286</color>
 
 </resources>
