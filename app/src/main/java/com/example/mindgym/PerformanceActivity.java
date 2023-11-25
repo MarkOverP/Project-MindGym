@@ -9,6 +9,18 @@ public class PerformanceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_performance);
+        setContentView(R.layout.activity_performance)                 ;
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

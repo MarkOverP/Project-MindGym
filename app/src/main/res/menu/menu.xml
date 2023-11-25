@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item
         android:id="@+id/home"
-        android:title="home"
+        android:title="@string/home_title"
         android:icon="@drawable/infhome" />
 
     <item
         android:id="@+id/performance"
-        android:title="performance"
+        android:title="@string/performance_title"
         android:icon="@drawable/infperformance" />
 
     <item
-        android:id="@+id/playgame"
-        android:title="playgame"
+        android:id="@+id/ItGame"
+        android:title="@string/game_title"
         android:icon="@drawable/infplay" />
 
     <item
         android:id="@+id/profile"
-        android:title="profile"
+        android:title="@string/profile_title"
         android:icon="@drawable/infprofile" />
 </menu>
