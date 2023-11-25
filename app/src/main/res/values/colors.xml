@@ -18,4 +18,8 @@
     <color name="PV_account">#E6A326</color>
     <color name="Security">#D95F69</color>
 
+    <color name="Lightblue">#E9F1FA</color>
+    <color name="Brightblue">#00ABE4</color>
+    <color name="Darkblue">#2d4286</color>
+
 </resources>
