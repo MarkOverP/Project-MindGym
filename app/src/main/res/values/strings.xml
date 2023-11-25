@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MindGym</string>
+
+    <string name="home_title">Home</string>
+    <string name="performance_title">Performance</string>
+    <string name="game_title">Game</string>
+    <string name="profile_title">Profile</string>
+
 </resources>
