@@ -3,6 +3,8 @@ package com.example.mindgym;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,20 +12,48 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Performance9Activity extends AppCompatActivity {
-
+    ImageView imageView17;
+    ImageView imageView12;
+    ImageView imageView9;
+    ImageView imageView15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_performance9)                 ;
+        imageView17 = (ImageView) findViewById(R.id.imageView17);
+        imageView12 = (ImageView) findViewById(R.id.imageView12);
+        imageView9 = (ImageView) findViewById(R.id.imageView9);
+        imageView15 = (ImageView) findViewById(R.id.imageView15);
 
+        imageView17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPerfomanceActivity();
+            }
 
+        });
 
+        imageView12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPerfomance5Activity();
+            }
 
+        });
+        imageView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPerfomance2Activity();
+            }
 
+        });
+        imageView15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPerfomance7Activity();
+            }
 
-
-
-
+        });
 
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigator);
@@ -56,5 +86,21 @@ public class Performance9Activity extends AppCompatActivity {
             }
         });
 
+    }
+    public void openPerfomanceActivity(){
+        Intent intentee = new Intent( this, PerformanceActivity.class);
+        startActivity(intentee);
+    }
+    public void openPerfomance5Activity(){
+        Intent intenteee = new Intent( this, Performance7Activity.class);
+        startActivity(intenteee);
+    }
+    public void openPerfomance2Activity(){
+        Intent intenteee3 = new Intent( this, Performance2Activity.class);
+        startActivity(intenteee3);
+    }
+    public void openPerfomance7Activity(){
+        Intent intenteee3 = new Intent( this, Performance7Activity.class);
+        startActivity(intenteee3);
     }
 }

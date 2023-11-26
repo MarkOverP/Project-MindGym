@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:layout_constraintVertical_bias="0.008"
-        app:srcCompat="@drawable/bo" />
+        app:srcCompat="@drawable/medal" />
 
     <TextView
         android:id="@+id/textView15"

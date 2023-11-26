@@ -7,17 +7,16 @@
     <string name="profile_title">Profile</string>
 
     <string name="txt01">
-    \tSubspecialty of health psychology.<p/> It focuses on applying psychological principles and practices to promote and protect the health .
+    \tSubspecialty of health psychology.<p /> It focuses on applying psychological principles and practices to promote and protect the health .
     </string>
 
     <string name="txt02">
-    \tLearning is a fantastic journey. <p/>What specific topic or area are you interested in starting to learn ?
+    \tLearning is a fantastic journey. <p />What specific topic or area are you interested in starting to learn ?
     </string>
 
     <string name="txt03">
-    \the minimalist game fest fest poster <p/>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <p/>
+    \the minimalist game fest fest poster <p />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <p />
     </string>
-
 
 
 </resources>
