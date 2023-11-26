@@ -7,15 +7,15 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg6">
 
-    <ImageView
+    <ImageButton
         android:id="@+id/settingbtn"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/settingicon"
         android:padding="10dp"
-        android:src="@drawable/settingicon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

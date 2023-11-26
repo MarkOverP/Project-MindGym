@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -15,14 +16,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    ImageView settingbtn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
-        settingbtn = (ImageView)findViewById(R.id.settingbtn) ;
 
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigator);
@@ -48,18 +45,9 @@ public class ProfileActivity extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.profile:
-                        startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
-                        overridePendingTransition(0, 0);
                         return true;
                 }
                 return false;
-            }
-        });
-        settingbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentstpage = new Intent(this, SettingprofileActivity.class);
-                startActivity(intentstpage);
             }
         });
     }
