@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 public class SettingprofileActivity extends AppCompatActivity {
 
-    private ImageView backBtn1;
-    private TextView logouts;
+     ImageView backBtn1;
+     TextView logouts;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,12 +28,10 @@ public class SettingprofileActivity extends AppCompatActivity {
             }
         });
         //-----------------
-
     }
     public void openProfile(){
         Intent intentback = new Intent(this, ProfileActivity.class);
         startActivity(intentback);
     }
-    //-------- logout
 
 }
