@@ -7,13 +7,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg6">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmenthome2"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <ImageView
+        android:id="@+id/settingbtn"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
