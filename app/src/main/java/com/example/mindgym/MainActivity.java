@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.performance:
                         startActivity(new Intent(getApplicationContext(), PerformanceActivity.class));
