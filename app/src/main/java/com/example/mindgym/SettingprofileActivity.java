@@ -13,6 +13,7 @@ public class SettingprofileActivity extends AppCompatActivity {
 
      ImageView backBtn1;
      TextView logouts;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
