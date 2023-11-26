@@ -21,6 +21,19 @@
             android:name=".PerformanceActivity"
             android:exported="true" />
         <activity
+            android:name=".Performance2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Performance5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Performance7Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Performance9Activity"
+            android:exported="true" />
+
+        <activity
             android:name=".ProfileActivity"
             android:exported="true" />
         <activity
