@@ -15,9 +15,6 @@
             android:name=".GameActivity"
             android:exported="true" />
         <activity
-            android:name=".Login1Activity"
-            android:exported="true" />
-        <activity
             android:name=".PerformanceActivity"
             android:exported="true" />
         <activity
@@ -32,7 +29,12 @@
         <activity
             android:name=".SettingprofileActivity"
             android:exported="true" />
-        <activity android:name=".MainActivity"
+
+        <activity
+            android:name=".Login1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
