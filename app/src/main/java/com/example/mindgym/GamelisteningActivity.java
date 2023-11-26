@@ -25,6 +25,15 @@ public class GamelisteningActivity extends AppCompatActivity {
         LisGame.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.listening));
         LisGame.start();
 
+        LisGame.setOnCompletionListener(mp -> {
+            // สร้าง Intent สำหรับเรียกใช้กิจกรรม (Activity) ใหม่
+            Intent intent = new Intent(GamelisteningActivity.this, ScoreActivity.class);
+            startActivity(intent);
+
+            // ปิดกิจกรรมปัจจุบัน
+            finish();
+        });
+
         backBtn1 = (ImageView) findViewById(R.id.backBtn1);
         nextButton = (Button) findViewById(R.id.nextButton);
         backBtn1.setOnClickListener(new View.OnClickListener() {

@@ -13,20 +13,27 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class GameActivity extends AppCompatActivity {
 ImageView imageView5 ;
+ImageView imageView6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-
         imageView5 = (ImageView) findViewById(R.id.imageView5);
-
+        imageView6 = (ImageView) findViewById(R.id.imageView6);
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openquickmath();
             }
 
+        });
+
+        imageView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lisning();
+            }
         });
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigator);
@@ -60,6 +67,11 @@ ImageView imageView5 ;
     }
     public void openquickmath(){
         Intent qp = new Intent( this, QuickmathVideo.class);
+        startActivity(qp);
+    }
+
+    public void lisning(){
+        Intent qp = new Intent( this, GamelisteningActivity.class);
         startActivity(qp);
     }
 }

@@ -16,13 +16,7 @@
             android:name=".QuickmathVideo"
             android:exported="false"/>
         <activity
-            android:name=".QuickmathVideo"
-            android:exported="false" />
-        <activity
             android:name=".GameActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Login1Activity"
             android:exported="true" />
         <activity
             android:name=".PerformanceActivity"
@@ -56,6 +50,9 @@
             android:exported="true"/>
         <activity
             android:name=".GamelisteningActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Login1Activity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
