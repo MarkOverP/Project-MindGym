@@ -10,12 +10,6 @@
     tools:layout_editor_absoluteY="-12dp">
 
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentproformance"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
@@ -43,7 +37,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="104dp"
         android:fontFamily="sans-serif-black"
         android:text="RANKINGS"
         android:textSize="20sp"
@@ -179,9 +173,7 @@
         app:layout_constraintHorizontal_bias="0.316"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/p1"
-
-        />
+        app:srcCompat="@drawable/p1" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -266,12 +258,12 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="320dp"
+        android:layout_width="170dp"
         android:layout_height="5dp"
         android:layout_marginTop="220dp"
         android:background="#03A9F4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -283,12 +275,12 @@
 
     <ScrollView
         android:id="@+id/b"
-        android:layout_width="280dp"
+        android:layout_width="130dp"
         android:layout_height="5dp"
         android:layout_marginTop="260dp"
         android:background="#FF9800"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -299,12 +291,12 @@
     </ScrollView>
 
     <ScrollView
-        android:layout_width="360dp"
+        android:layout_width="120dp"
         android:layout_height="5dp"
         android:layout_marginTop="300dp"
         android:background="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -316,12 +308,12 @@
 
     <ScrollView
         android:id="@+id/scrollView4"
-        android:layout_width="280dp"
+        android:layout_width="220dp"
         android:layout_height="5dp"
         android:layout_marginTop="340dp"
         android:background="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -345,12 +337,12 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="300dp"
+        android:layout_width="100dp"
         android:layout_height="5dp"
         android:layout_marginTop="380dp"
         android:background="#E91E63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -386,12 +378,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="260dp"
+        android:layout_width="80dp"
         android:layout_height="5dp"
         android:layout_marginTop="420dp"
         android:background="#009688"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -425,8 +417,6 @@
         app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toEndOf="@+id/textView13"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
