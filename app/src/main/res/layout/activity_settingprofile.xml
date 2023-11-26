@@ -20,6 +20,7 @@
             android:src="@drawable/backbutton" />
 
         <TextView
+            android:id="@+id/settingText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -27,6 +28,7 @@
             android:textColor="#ffffff"
             android:textSize="20dp"
             android:textStyle="bold" />
+
     </RelativeLayout>
 
     <ScrollView
@@ -400,13 +402,6 @@
                         android:text="Logout"
                         android:textColor="@color/white"
                         android:textStyle="bold" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/righticon" />
                 </RelativeLayout>
 
             </LinearLayout>
