@@ -15,6 +15,9 @@
             android:name=".GamelisteningActivity"
             android:exported="false" />
         <activity
+            android:name=".QuickmathVideo"
+            android:exported="false" />
+        <activity
             android:name=".GameActivity"
             android:exported="true" />
         <activity
